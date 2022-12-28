@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.emailContainer {
+  background-color: rgba(0, 0, 0, 0.267);
+  margin: 5;
+  padding: 5;
+}
