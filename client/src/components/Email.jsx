@@ -5,7 +5,7 @@ function Email(props) {
     props.setEmailClicked(false);
   }
   return (
-    <div>
+    <div className="item2">
       <div className="emailContainer">
         <button onClick={handleClick}>Back</button>
         <ul>

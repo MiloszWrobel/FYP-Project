@@ -1,9 +1,10 @@
 import React from "react";
+import "../App.css";
 
 function Header() {
   return (
-    <div>
-      <h1>M Mails</h1>
+    <div className="Header item1">
+      <img alt="Logo" src={process.env.PUBLIC_URL + "Logo.png"}></img>
       <p>The quick and easy way to send emails!</p>
     </div>
   );

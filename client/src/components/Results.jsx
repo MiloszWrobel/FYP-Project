@@ -8,7 +8,7 @@ function Results(props) {
     props.setSelectedEmail(email);
   }
   return (
-    <div>
+    <div className="item2 result-container">
       {props.emails.map((email) => {
         return <Result email={email} handleClick={handleClick} />;
       })}

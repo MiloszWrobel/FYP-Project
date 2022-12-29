@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App Background grid-container">
       <Header />
       {emailClicked ? (
         <Email setEmailClicked={setEmailClicked} email={selectedEmail} />
